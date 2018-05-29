@@ -1,0 +1,8 @@
+{
+  "name": "meteor-preact-boilerplate",
+  "private": true,
+  "scripts": {
+    "start": "cd src && meteor npm start",
+    "install": "cd src && meteor npm install"
+  }
+}
