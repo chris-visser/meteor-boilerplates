@@ -4,6 +4,8 @@ import { onPageLoad } from 'meteor/server-render';
 
 import App from '../ui/App';
 
+import '../api/methods/getArticles';
+
 onPageLoad(sink => {
 
   sink.renderIntoElementById('app', render(
