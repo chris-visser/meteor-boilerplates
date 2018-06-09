@@ -10,3 +10,7 @@ Bundle size: 103kb!
 ## Create Article method
 
 ## Extend Home page
+
+## Adding markdown content to articles
+
+## Adding styles

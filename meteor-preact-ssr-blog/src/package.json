@@ -2,13 +2,25 @@
   "name": "meteor-preact-boilerplate",
   "private": true,
   "scripts": {
-    "start": "meteor run"
+    "start": "meteor run",
+    "deploy": "meteor deploy cloudspider.eu.meteorapp.com --settings settings.json"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "startup/client.js",
+      "server": "startup/server.js"
+    }
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0-beta.42",
+    "highlight.js": "^9.12.0",
+    "marked": "^0.4.0",
     "meteor-node-stubs": "^0.3.2",
     "preact": "^8.2.9",
     "preact-async-route": "^2.2.0",
+    "preact-helmet": "^4.0.0-alpha-3",
+    "preact-markdown": "^0.4.0",
+    "preact-markup": "^1.6.0",
     "preact-render-to-string": "^3.7.0",
     "preact-router": "^2.6.1"
   },

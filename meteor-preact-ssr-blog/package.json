@@ -3,6 +3,11 @@
   "private": true,
   "scripts": {
     "start": "cd src && meteor npm start",
-    "install": "cd src && meteor npm install"
+    "install": "cd src && meteor npm install",
+    "deploy": "cd src && meteor npm run deploy"
+  },
+  "devDependencies": {
+    "serverless-domain-manager": "^2.4.0",
+    "serverless-offline": "^3.25.4"
   }
 }

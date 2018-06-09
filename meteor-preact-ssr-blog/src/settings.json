@@ -1,0 +1,8 @@
+{
+  "galaxy.meteor.com": {
+    "env": {
+      "MONGO_URL": "false",
+      "ROOT_URL": "https://www.cloudspider.io"
+    }
+  }
+}

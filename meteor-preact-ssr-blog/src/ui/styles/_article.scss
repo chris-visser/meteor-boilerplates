@@ -1,0 +1,23 @@
+.article-meta {
+  font-size: 0.9em;
+  color: #888888;
+  text-align: right;
+  margin-bottom: 0;
+}
+
+.article-tags {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1em;
+}
+
+.article-tag {
+  margin: 5px;
+}
+
+.tag {
+  border: 1px solid #cccccc;
+  background-color: #eeeeee;
+  padding: 8px;
+}
