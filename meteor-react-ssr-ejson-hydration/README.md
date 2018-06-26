@@ -1,8 +1,8 @@
 # Meteor React and SSR
-This boilerplate is build with Meteor and React. It serves nicely as 
-a minimum starting point for any application that needs serverside rendering
+This boilerplate is build with Meteor and React. It serves as an example to illustrate how to hydrate 
+Clientside React components using EJSON to prevent rich content types like Dates from getting lost.
 
-Here's the [guide on how this boilerplate was created](https://www.chrisvisser.io/meteor/how-to-set-up-meteor-react-with-ssr)
+Here's the [guide on how this boilerplate was created](https://www.chrisvisser.io/meteor/meteor-react-with-ssr-hydrating-initial-state-with-ejson)
 
 ## Getting started (development)
 Navigate to the Meteor project
